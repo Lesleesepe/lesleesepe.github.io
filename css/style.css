@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+.hero{
+  font-family: 'Smooch', cursive;
+  background-image: url(/img/rainbow.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.about{
+  padding-top: 120px;
+  background-color: #869DA3;
+} 
+
+.services-text{
+  padding-top: 120px;
+}
+
+.services{
+  padding-top: 50px;
+  padding-bottom: 120px;
+  background-color: #869DA3;
+}
+
+/* .card-effect{
+  box-shadow: ;
+  background-color: aliceblue;
+  padding:25px;
+  transition: all 0.35s ease;
+}
+
+.card-effect: hover {
+  box-shadow: none;
+  transform: translate
+} */

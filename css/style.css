@@ -11,6 +11,8 @@ body{
   background-repeat: none;
   background-size: cover;
   background-attachment: fixed;
+
+
 }
 
 .hero-text{
@@ -31,11 +33,12 @@ body{
   padding-top: 50px;
   padding-bottom: 120px;
   background-color: #869DA3;
+  margin: 0;
 }
 
 /* .card-effect{
-  box-shadow: ;
-  background-color: aliceblue;
+  box-shadow: -1px 3px 6px rgba(0, 0, 0, 1);
+
   padding:25px;
   transition: all 0.35s ease;
 }
@@ -44,3 +47,12 @@ body{
   box-shadow: none;
   transform: translate
 } */
+
+.cbg{
+  background-image: url(/img/blue-left.jpg);
+}
+.c-img{
+  background-color: aquamarine;
+  height: 100vh;
+  opacity: 0;
+}

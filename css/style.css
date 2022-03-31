@@ -67,7 +67,15 @@ img{
   width: 100%;
 }
 
-.portfolio {
+.portfolio-text{
+  background-color: #1B3752;
+
+}
+.portfolio{
+  background-color: #1B3752;
+}
+
+/* .portfolio {
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -80,4 +88,4 @@ img{
   width: 100%;
   height: 100%;
   background: rgb(21, 20, 51, 0.8);
-}
+} */

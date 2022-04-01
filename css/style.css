@@ -1,7 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
 
 body{
   margin:0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.navbar{
+  background-color: #869DA3;
+}
+.nav-title{
+  font-family: 'Smooch', cursive;
+  font-size: 30px;
 }
 
 .hero{
@@ -16,15 +27,17 @@ body{
 .hero-text{
   margin-bottom: -1em;
   text-shadow: -1px 3px 6px rgba(0, 0, 0, 1);
+  font-size: 110px;
 }
 
 .about{
-  padding-top: 150px;
+  padding-top: 210px;
   background-color: #869DA3;
 } 
 
 .services-text{
-  padding-top: 80px;
+  padding-top: 120px;
+  font-size: 50px;
 }
 
 .services{
@@ -33,18 +46,6 @@ body{
   background-color: #869DA3;
   margin: 0;
 }
-
-/* .card-effect{
-  box-shadow: -1px 3px 6px rgba(0, 0, 0, 1);
-
-  padding:25px;
-  transition: all 0.35s ease;
-}
-
-.card-effect: hover {
-  box-shadow: none;
-  transform: translate
-} */
 
 .cbg{
   background-image: url(/img/blue-left.jpg); 
@@ -61,31 +62,50 @@ body{
 }
 .cbg-text{
   text-shadow: 1px 0px 4px rgba(0, 0, 0, 0.60);
+  font-size: 22px;
 }
 
 img{
   width: 100%;
 }
 
+.custom-p{
+  padding-bottom: 150px;
+}
+
 .portfolio-text{
   background-color: #1B3752;
-
+  font-size: 50px;
 }
 .portfolio{
   background-color: #1B3752;
 }
 
-/* .portfolio {
-  position: relative;
-  z-index: 2;
-  overflow: hidden;
+.accordion-custom{
+  width: 65vw;
 }
 
-.porfolio .overlay {
-  position:absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(21, 20, 51, 0.8);
-} */
+/* -- */
+#contact-form{
+margin: 5% 10%;
+}
+
+.input{
+  width: 75%;
+}
+
+#contact-section{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url(/img/blue-left.jpg); 
+  background-position: center;
+  background-repeat: none;
+  background-size: contain;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+footer{
+  height: 150px;
+  background-color: #869DA3;
+}
